@@ -1,0 +1,245 @@
+*, html, body{
+    box-sizing: border-box;
+}
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:20;
+    background-color:white ;
+}
+.container{
+    max-width:1200px;
+    margin:0 auto;
+    padding:0px 15px;
+}
+.header-container{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding:27px 0px 24px 0px;
+}
+.header-link{
+    text-decoration-line:none;
+    font-size:15px;
+    color:#3f4244;
+    line-height:1.2;
+}
+.header-custom-link{
+    background-image: linear-gradient(164deg, #6dffc6 1%, #3fd2ce 99%);
+    padding:10px 20px;
+    border-radius: 12%;
+}
+.header-link:not(:nth-child(5)){
+    margin-right:45px;
+
+}
+ /* first-screen */
+.first-screen{
+    background-image: linear-gradient(180deg, #6dffc6 1%, #3fd2ce 99%);
+    min-height:700px;
+    display:flex;
+}
+.first-screen-content{
+    margin:auto;
+}
+.first-screen-h{
+    
+    font-size: 60px;
+    color: #ffffff;
+    font-weight: 300;
+    line-height: 1.2;
+    text-transform:capitalize
+}
+.first-screen-btn{
+    display:block;
+    color: #ffffff;
+    margin:0 auto;
+    margin-top:50px;
+}
+.btn{
+    font-size: 15px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    border: 0;
+    outline: none;
+    min-width: 250px;
+    padding: 24px 15px;
+    border-radius: 9px;
+    background-image: linear-gradient(
+180deg
+, #ff6c54 1%, #ff2b59 99%);
+text-transform: uppercase;
+}
+/* directions */
+.directions{
+    padding:120px 0px;
+}
+.directions-item-list{
+    display:flex;
+    justify-content:space-between;
+}
+.directions-item{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 270px;
+    text-align:center;
+}
+.directions-item-img{
+    margin:0 auto;
+}
+.directions-item h4{
+    font-size: 15px;
+    color: #3f4244;
+    font-weight: 700;
+    font-family: "Roboto";
+    text-transform: capitalize;
+    padding:20px 0px;
+}
+.directions-item-text{
+    font-size: 13px;
+    color: #929ba0;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-align: center;
+    margin-bottom:40px;
+}
+/* brows-page */
+.brows-add{
+    display:flex;
+    background-image: linear-gradient(
+172deg
+, #ff6c54 1%, #ff2b59 99%);
+justify-content: center;
+padding:75px 0px 0px 0px;
+
+}
+.brows-content-container{
+    max-width:750px;
+    padding:0px 15px;
+}
+.brows-page-text{
+    display:flex;
+    flex-direction:column;
+    padding:0 10px;
+    max-width:950px;
+}
+.brows-header{
+    text-transform: capitalize;
+    font-size:40px;
+    align-self:center;
+
+
+}
+
+.content-container{
+    padding: 40px 0px 100px;
+}
+.white-text{
+    color:white;
+}
+.brows-content-container img{
+    margin-left:-125px;
+    margin-bottom:-3px;
+    
+}
+
+
+/* .left-brows-container{
+    margin:0px -90px;
+
+}
+.middle-brows-container{
+    margin:0px -185px;
+
+}
+.right-brows-container{
+    margin:0px -100px;
+}
+.z-index2{
+    z-index: 2;
+} */
+
+/* phone-page */
+.phone-page{
+    padding: 80px 0px;
+}
+.phone-add-container{
+    margin:auto;
+    max-width:1100px;
+    padding:0px 15px 0px 170px;
+    display: flex;
+    
+}
+.phones-content{
+    padding: 70px 0px 0px 70px;
+}
+.phones-content h2{
+    font-size: 40px;
+    color: #3f4244;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-transform: capitalize;
+ 
+}
+.phones-content div{
+    font-size: 15px;
+    color: #929ba0;
+    font-weight: 300;
+    font-family: "Roboto";
+    padding: 70px 0px 70px 0px;
+}
+/* portfolio */
+.portfolio{
+    background-image: linear-gradient(164deg, #6dffc6 1%, #3fd2ce 99%);
+    padding:75px 0px 50px 0px;
+}
+.portfolio-content{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:0px 15px;
+}
+.portfolio-wrapper{
+    padding:40px 0px 55px 0px;
+    max-width:1170px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.portfolio-item{
+    height: 370px;
+    flex-basis:370px;
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    margin-top: 30px;
+}
+.portfolio-item-screen{
+    /* height:240px; */
+    flex-basis: 370px;
+    background-color: rgb(35,46,61);
+}
+.portfolio-item-content{
+    background-color: white;
+    padding:0px 60px;
+}
+.portfolio-item-text{
+    font-size: 13px;
+    color: #929ba0;
+    font-weight: 400;
+    padding-bottom:30px;
+}
+.portfolio-item-content h4{
+    padding:18px 0px 22px 0px;
+    font-size: 15px;
+    color: #3f4244;
+    font-weight: 500;
+    text-transform:uppercase;
+}
+.portfolio-nav{
+    display: flex;
+}
