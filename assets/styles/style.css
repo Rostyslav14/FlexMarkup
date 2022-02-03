@@ -97,7 +97,7 @@ text-transform: uppercase;
     font-weight: 700;
     font-family: "Roboto";
     text-transform: capitalize;
-    padding:20px 0px;
+    margin:20px 0px;
 }
 .directions-item-text{
     font-size: 13px;
@@ -117,10 +117,6 @@ justify-content: center;
 padding:75px 0px 0px 0px;
 
 }
-.brows-content-container{
-    max-width:750px;
-    padding:0px 15px;
-}
 .brows-page-text{
     display:flex;
     flex-direction:column;
@@ -131,18 +127,15 @@ padding:75px 0px 0px 0px;
     text-transform: capitalize;
     font-size:40px;
     align-self:center;
-
-
 }
 
 .content-container{
-    padding: 40px 0px 100px;
+    margin: 40px 0px 40px 100px;
 }
 .white-text{
     color:white;
 }
-.brows-content-container img{
-    margin-left:-125px;
+.brows-add img{
     margin-bottom:-3px;
     
 }
@@ -165,17 +158,14 @@ padding:75px 0px 0px 0px;
 
 /* phone-page */
 .phone-page{
-    padding: 80px 0px;
+    padding: 80px 140px 80px 320px;
 }
-.phone-add-container{
-    margin:auto;
-    max-width:1100px;
-    padding:0px 15px 0px 170px;
+.phone-add{
     display: flex;
     
 }
 .phones-content{
-    padding: 70px 0px 0px 70px;
+    margin: 70px 0px 0px 70px;
 }
 .phones-content h2{
     font-size: 40px;
@@ -190,7 +180,7 @@ padding:75px 0px 0px 0px;
     color: #929ba0;
     font-weight: 300;
     font-family: "Roboto";
-    padding: 70px 0px 70px 0px;
+    margin: 70px 0px 70px 0px;
 }
 /* portfolio */
 .portfolio{
@@ -201,7 +191,7 @@ padding:75px 0px 0px 0px;
     display:flex;
     flex-direction:column;
     align-items:center;
-    padding:0px 15px;
+   
 }
 .portfolio-wrapper{
     padding:40px 0px 55px 0px;
@@ -211,7 +201,7 @@ padding:75px 0px 0px 0px;
     justify-content: space-around;
 }
 .portfolio-item{
-    height: 370px;
+    /* height: 370px; */
     flex-basis:370px;
     display:flex;
     flex-direction: column;
@@ -220,7 +210,7 @@ padding:75px 0px 0px 0px;
 }
 .portfolio-item-screen{
     /* height:240px; */
-    flex-basis: 370px;
+    flex-basis: 300px;
     background-color: rgb(35,46,61);
 }
 .portfolio-item-content{
@@ -231,10 +221,10 @@ padding:75px 0px 0px 0px;
     font-size: 13px;
     color: #929ba0;
     font-weight: 400;
-    padding-bottom:30px;
+    margin-bottom:30px;
 }
 .portfolio-item-content h4{
-    padding:18px 0px 22px 0px;
+    margin:18px 0px 22px 0px;
     font-size: 15px;
     color: #3f4244;
     font-weight: 500;
@@ -242,4 +232,7 @@ padding:75px 0px 0px 0px;
 }
 .portfolio-nav{
     display: flex;
+}
+#last-list-item{
+    margin-right:0;
 }
